@@ -50,10 +50,10 @@
             </objects>
             <point key="canvasLocation" x="139.69465648854961" y="130.98591549295776"/>
         </scene>
-        <!--View Controller-->
+        <!--User View Controller-->
         <scene sceneID="iAg-Co-u4e">
             <objects>
-                <viewController id="X84-XU-D6D" sceneMemberID="viewController">
+                <viewController id="X84-XU-D6D" customClass="UserViewController" customModule="H_M" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xgp-ON-pXh">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
