@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="shoe.arrow.trianglehead.up.right.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="6aJ-kW-d8z">
-                                <rect key="frame" x="56" y="262" width="280" height="271"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="h&amp;M" translatesAutoresizingMaskIntoConstraints="NO" id="XIM-Ra-aOI">
+                                <rect key="frame" x="63" y="161" width="266" height="410"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -31,7 +31,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="shoe.arrow.trianglehead.up.right.fill" catalog="system" width="128" height="85"/>
+        <image name="h&amp;M" width="735" height="752"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
