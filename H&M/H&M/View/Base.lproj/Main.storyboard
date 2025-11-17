@@ -16,41 +16,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UKP-wr-ggF">
-                                <rect key="frame" x="0.0" y="118" width="393" height="666"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4D9-HI-xbU">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zbk-PB-te2" userLabel="ContentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="666"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yIX-BW-Dqf" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1200"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="393" id="IUo-Qq-gbb"/>
-                                            <constraint firstAttribute="height" constant="666" id="U3n-Nd-TYI"/>
+                                            <constraint firstAttribute="height" constant="1200" id="D4v-L0-3KN"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="393" id="TMc-jG-5NR"/>
-                                    <constraint firstAttribute="bottom" secondItem="Zbk-PB-te2" secondAttribute="bottom" id="bI6-Nb-ESJ"/>
-                                    <constraint firstAttribute="trailing" secondItem="Zbk-PB-te2" secondAttribute="trailing" id="eHw-Aj-wV8"/>
-                                    <constraint firstItem="Zbk-PB-te2" firstAttribute="top" secondItem="UKP-wr-ggF" secondAttribute="top" id="rcS-l1-Ai8"/>
-                                    <constraint firstItem="Zbk-PB-te2" firstAttribute="leading" secondItem="UKP-wr-ggF" secondAttribute="leading" id="sEI-Gk-uXL"/>
+                                    <constraint firstItem="yIX-BW-Dqf" firstAttribute="width" secondItem="4D9-HI-xbU" secondAttribute="width" multiplier="0.610687" id="EVU-xi-Ahz"/>
+                                    <constraint firstItem="yIX-BW-Dqf" firstAttribute="top" secondItem="4D9-HI-xbU" secondAttribute="top" id="FpP-qu-sR6"/>
+                                    <constraint firstItem="yIX-BW-Dqf" firstAttribute="leading" secondItem="4D9-HI-xbU" secondAttribute="leading" id="Vg5-Ls-Ff8"/>
+                                    <constraint firstAttribute="trailing" secondItem="yIX-BW-Dqf" secondAttribute="trailing" id="aF4-dJ-QHa"/>
+                                    <constraint firstAttribute="bottom" secondItem="yIX-BW-Dqf" secondAttribute="bottom" id="cn2-n6-LEN"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="UKP-wr-ggF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="74q-CD-x5e"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UKP-wr-ggF" secondAttribute="trailing" id="Oux-U9-lIV"/>
-                            <constraint firstItem="UKP-wr-ggF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dDm-rv-NRT"/>
-                            <constraint firstItem="UKP-wr-ggF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qJ6-wK-SkZ"/>
-                            <constraint firstItem="UKP-wr-ggF" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="xjU-8j-4t1"/>
-                            <constraint firstItem="UKP-wr-ggF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zPX-aG-UO0"/>
+                            <constraint firstItem="4D9-HI-xbU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O3n-XF-Iwl"/>
+                            <constraint firstAttribute="bottom" secondItem="4D9-HI-xbU" secondAttribute="bottom" id="Vyn-2s-Vhg"/>
+                            <constraint firstItem="4D9-HI-xbU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZwM-Yq-BjC"/>
+                            <constraint firstItem="4D9-HI-xbU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="z3w-oP-vOA"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="ContentView" destination="Zbk-PB-te2" id="FdB-gn-ZuQ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -63,41 +57,6 @@
                     <view key="view" contentMode="scaleToFill" id="Xgp-ON-pXh">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CONNECTER-VOUS POUR UNE EXPERIENCE UNIQUE" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4Q-rU-nUQ">
-                                <rect key="frame" x="-5" y="69" width="333" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="FEMME " borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pkB-fA-XkB">
-                                <rect key="frame" x="-5" y="144" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="plus" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="AMF-RY-Fmq">
-                                <rect key="frame" x="102" y="151" width="18" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pc7-ei-G3V">
-                                <rect key="frame" x="202" y="218" width="109" height="54"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </navigationBar>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HomePicture" translatesAutoresizingMaskIntoConstraints="NO" id="GfT-Os-Yt2">
-                                <rect key="frame" x="-27" y="182" width="393" height="455"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yeg-sT-coX">
-                                <rect key="frame" x="282" y="75" width="84" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Title" id="hYs-E2-qfm"/>
-                                </items>
-                            </navigationBar>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="pPk-9d-0I0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -108,8 +67,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="HomePicture" width="666.66668701171875" height="833.33331298828125"/>
-        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
