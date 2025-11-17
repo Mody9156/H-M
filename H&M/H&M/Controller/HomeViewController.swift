@@ -11,7 +11,7 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var ContentView: UIView!
     
-    @IBOutlet var Navigation: UIButton!
+    @IBOutlet var navigationView: UINavigationBar!
     @IBOutlet var scollView: UIScrollView!
     
     override func viewDidLoad() {
@@ -68,8 +68,6 @@ class HomeViewController: UIViewController {
 //            label.centerYAnchor
 //                .constraint(equalTo: content.centerYAnchor, constant: 20)
 //        ])
-        Navigation.imageView?.image = UIImage(systemName: "plus")
-        
     }
     
     
