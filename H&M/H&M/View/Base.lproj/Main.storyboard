@@ -53,6 +53,9 @@
                             <constraint firstItem="4D9-HI-xbU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="z3w-oP-vOA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Navigation" destination="noB-Ec-e4i" id="5eX-OL-JQX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
