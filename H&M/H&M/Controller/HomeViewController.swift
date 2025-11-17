@@ -68,7 +68,8 @@ class HomeViewController: UIViewController {
 //            label.centerYAnchor
 //                .constraint(equalTo: content.centerYAnchor, constant: 20)
 //        ])
-        Navigation.imageView?.image = UIImage(named: "plus")
+        Navigation.imageView?.image = UIImage(systemName: "plus")
+        
     }
     
     
