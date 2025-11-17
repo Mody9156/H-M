@@ -9,16 +9,24 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var ContentView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view?.backgroundColor = .white
         
+        guard let content = ContentView else {return}
+        
+        
+        
+        
     }
     
+    
   
-
+   
+    
 
 
 }
