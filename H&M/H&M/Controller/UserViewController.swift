@@ -10,4 +10,8 @@ import UIKit
 
 class UserViewController: UIViewController {
     
+    override func viewWillAppear(_ animated:Bool){
+        
+        
+    }
 }
