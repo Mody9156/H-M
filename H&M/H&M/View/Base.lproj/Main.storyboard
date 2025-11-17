@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CONNECTER-VOUS POUR UNE EXPERIENCE UNIQUE" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4Q-rU-nUQ">
-                                <rect key="frame" x="22" y="75" width="333" height="57"/>
+                                <rect key="frame" x="22" y="75" width="268" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -50,7 +50,7 @@
                                 </items>
                             </navigationBar>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nm4-ms-pHb">
-                                <rect key="frame" x="0.0" y="125" width="393" height="690"/>
+                                <rect key="frame" x="0.0" y="140" width="393" height="675"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="8ih-Mc-K5b"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="Bbm-yU-e7r"/>
