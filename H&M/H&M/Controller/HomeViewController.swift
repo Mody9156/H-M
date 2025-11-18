@@ -25,14 +25,8 @@ class HomeViewController: UIViewController {
         guard let content = ContentView else {return}
         
         content.translatesAutoresizingMaskIntoConstraints = false
-        
-        
-        let rectangle = UIView(frame: CGRect(x: 10, y: 50, width: 50, height: 50))
-        rectangle.backgroundColor = .clear
-        view.addSubview(rectangle)
-        
+
     }
-  
     
 
 
