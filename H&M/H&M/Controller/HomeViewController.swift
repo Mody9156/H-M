@@ -13,6 +13,7 @@ class HomeViewController: UIViewController {
     @IBOutlet var scollView: UIScrollView!
     
     
+    @IBOutlet var smallBouton: UILabel!
     
    
     
@@ -25,6 +26,10 @@ class HomeViewController: UIViewController {
         
         content.translatesAutoresizingMaskIntoConstraints = false
         
+        
+        let rectangle = UIView(frame: CGRect(x: 10, y: 50, width: 50, height: 50))
+        rectangle.backgroundColor = .clear
+        view.addSubview(rectangle)
         
     }
   
