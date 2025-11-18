@@ -11,7 +11,7 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var ContentView: UIView!
     
-    @IBOutlet var navigationView: UINavigationBar!
+    @IBOutlet var navigationItem: UINavigationItem!
     @IBOutlet var scollView: UIScrollView!
     
     override func viewDidLoad() {
