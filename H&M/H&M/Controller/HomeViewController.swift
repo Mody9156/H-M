@@ -11,7 +11,7 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var ContentView: UIView!
     
-    @IBOutlet var navigationItem: UINavigationItem!
+    @IBOutlet var navigation: UINavigationItem!
     @IBOutlet var scollView: UIScrollView!
     
     override func viewDidLoad() {
@@ -68,13 +68,23 @@ class HomeViewController: UIViewController {
 //            label.centerYAnchor
 //                .constraint(equalTo: content.centerYAnchor, constant: 20)
 //        ])
+        
+        navigation.rightBarButtonItem = UIBarButtonItem(
+            image: UIImage(systemName: "moon"),
+            style: .plain,
+            target: self,
+            action: #selector(didTapRightBarButton)
+        )
     }
     
-    
-  
+    @objc func didTapRightBarButton() {
+        // Action for the right bar button
+        let nextVC = HomeViewController()
+        navigationController?.pushViewController(nextVC, animated: true)
+       
+    }
    
     
 
 
 }
-
